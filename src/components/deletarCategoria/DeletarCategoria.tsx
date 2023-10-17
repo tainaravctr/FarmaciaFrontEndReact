@@ -1,9 +1,9 @@
 import { useContext, useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router'
-import { AuthContext } from '../../../contexts/AuthContext'
+import { AuthContext } from '../../contexts/AuthContext'
 import Category from '../../models/Categoria'
 import { deletar } from '../../service/Service'
-import Util from '../../../utils/Util'
+import Util from '../../util/Util'
 
 
 function DeletarCategoria() {

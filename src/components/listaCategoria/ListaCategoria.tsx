@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../../contexts/AuthContext';
 import { buscar } from '../../service/Service';
-import CardCategoria from '../../cardCategoria/CardCategoria';
-import Util from '../../../utils/Util';
+import CardCategoria from '../cardCategorias/CardCategorias';
+import Util from '../../util/Util';
 import ICategory from '../../models/Categoria';
 
 function ListaCategoria() {
